@@ -32,7 +32,7 @@ const Projects = () => {
   ];
   return (
     <div
-      name="projects"
+      name="Projects"
       className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen lg:h-full"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">

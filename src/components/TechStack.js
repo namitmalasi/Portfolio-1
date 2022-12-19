@@ -48,7 +48,7 @@ const TechStack = () => {
 
   return (
     <div
-      name="techstack"
+      name="Techstack"
       className="bg-gradient-to-b from-gray-800 to-black w-screen h-screen"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col jusitfy-center w-full h-full text-white">
