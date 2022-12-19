@@ -23,11 +23,17 @@ const Projects = () => {
       live: "https://fonts.google.com/",
       code: "https://github.com/",
     },
+    {
+      id: 4,
+      src: reactSmooth,
+      live: "https://fonts.google.com/",
+      code: "https://github.com/",
+    },
   ];
   return (
     <div
       name="projects"
-      className="bg-gradient-to-b from-black to-gray-800 w=full text-white md:h-screen"
+      className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen lg:h-full"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
