@@ -45,6 +45,7 @@ const TechStack = () => {
       style: "shadow-gray-400",
     },
   ];
+
   return (
     <div
       name="techstack"
