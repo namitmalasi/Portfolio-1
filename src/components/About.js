@@ -17,8 +17,8 @@ const About = () => {
           Hi, I’m Namit Malasi, a front-end developer who is passionate about
           web technologies. I'm a self taught developer focused on creating
           beautiful and user friendly applications while writing clean code. I’m
-          currently working on creating dynamic web Apps using
-          React,Redux,Tailwind etc.
+          currently working on creating dynamic web Apps using React,Tailwind
+          etc.
         </p>
         <br />
         <p className="text-xl px-8">

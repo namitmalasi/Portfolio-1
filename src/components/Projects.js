@@ -1,33 +1,34 @@
 import React from "react";
-import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
-import installNode from "../assets/portfolio/installNode.jpg";
-import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
+import codebook from "../assets/portfolio/codebook.png";
+import cryptoN from "../assets/portfolio/cryptoN.png";
+import quizio from "../assets/portfolio/quizio.png";
+import portfolio from "../assets/portfolio/portfolio.png";
 
 const Projects = () => {
   const projects = [
     {
       id: 1,
-      src: arrayDestruct,
-      live: "https://fonts.google.com/",
-      code: "https://github.com/",
+      src: codebook,
+      live: "https://codebook-ui.netlify.app/",
+      code: "https://github.com/namitmalasi/codebook",
     },
     {
       id: 2,
-      src: installNode,
-      live: "https://fonts.google.com/",
-      code: "https://github.com/",
+      src: cryptoN,
+      live: "https://app-crypton.netlify.app/",
+      code: "https://github.com/namitmalasi/crypto-app",
     },
     {
       id: 3,
-      src: reactSmooth,
-      live: "https://fonts.google.com/",
-      code: "https://github.com/",
+      src: quizio,
+      live: "https://quizio-app.netlify.app/",
+      code: "https://github.com/namitmalasi/react-quiz",
     },
     {
       id: 4,
-      src: reactSmooth,
-      live: "https://fonts.google.com/",
-      code: "https://github.com/",
+      src: portfolio,
+      live: "https://namitmalasi-portfolio.netlify.app/",
+      code: "https://github.com/namitmalasi/Portfolio-1",
     },
   ];
   return (
@@ -49,7 +50,7 @@ const Projects = () => {
               <img
                 src={src}
                 alt=""
-                className="rounded-md duration-200 hover:scale-105"
+                className="rounded-md duration-200 hover:scale-105 cover"
               />
               <div className="flex items-center justify-center">
                 <a href={live} target="_blank" rel="noreferrer">
