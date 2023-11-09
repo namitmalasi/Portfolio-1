@@ -3,14 +3,15 @@ import codebook from "../assets/portfolio/codebook.png";
 import cryptoN from "../assets/portfolio/cryptoN.png";
 import quizio from "../assets/portfolio/quizio.png";
 import portfolio from "../assets/portfolio/portfolio.png";
+import bazaar from "../assets/portfolio/bazaar.png";
 
 const Projects = () => {
   const projects = [
     {
       id: 1,
-      src: codebook,
-      live: "https://codebook-ui.netlify.app/",
-      code: "https://github.com/namitmalasi/codebook",
+      src: bazaar,
+      live: "https://bazaar-ui.netlify.app/",
+      code: "https://github.com/namitmalasi/Bazaar",
     },
     {
       id: 2,
@@ -26,6 +27,12 @@ const Projects = () => {
     },
     {
       id: 4,
+      src: codebook,
+      live: "https://codebook-ui.netlify.app/",
+      code: "https://github.com/namitmalasi/codebook",
+    },
+    {
+      id: 5,
       src: portfolio,
       live: "https://namitmalasi-portfolio.netlify.app/",
       code: "https://github.com/namitmalasi/Portfolio-1",
